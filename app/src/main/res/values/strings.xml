@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Scorekeeper_Rasheen</string>
+    <string name="default_score">0</string>
+    <string name="default_score_addition">1</string>
+    <string name="match_details">Match Details</string>
+    <string name="shooting">Shooting</string>
+    <string name="free_throws">Free Throws</string>
+    <string name="two_pointers">Two Pointers</string>
+    <string name="three_pointers">Three Pointers</string>
+    <string name="fouls">Fouls</string>
+    <string name="_1_point">+1 Point</string>
+    <string name="_2_points">+2 Points</string>
+    <string name="_3_points">+3 Points</string>
+    <string name="scored_by">Add Score By</string>
 </resources>
