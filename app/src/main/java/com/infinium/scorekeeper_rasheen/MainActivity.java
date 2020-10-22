@@ -22,17 +22,17 @@ import org.w3c.dom.Text;
 public class MainActivity extends AppCompatActivity {
 
 
-    int scoreBy = 1;
-    int lakersCurrentScore = 0;
-    int thundersCurrentScore = 0;
+    private int scoreBy = 1;
+    private int lakersCurrentScore = 0;
+    private int thundersCurrentScore = 0;
 
-    int lakersShooting = 0;
-    int thundersShooting = 0;
-    int lakersFreeThrows = 0;
-    int thundersFreeThrows = 0;
-    int lakersTwoPointer = 0;
-    int thundersTwoPointer = 0;
-    int lakersThreePointer = 0;
+    private int lakersShooting = 0;
+    private int thundersShooting = 0;
+    private int lakersFreeThrows = 0;
+    private int thundersFreeThrows = 0;
+    private int lakersTwoPointer = 0;
+    private int thundersTwoPointer = 0;
+    private int lakersThreePointer = 0;
     int thundersThreePointer = 0;
     int lakersFouls = 0;
     int thundersFouls = 0;
@@ -118,6 +118,9 @@ public class MainActivity extends AppCompatActivity {
                     lakersTwoPointerAmount.setText(String.valueOf(lakersTwoPointer));
                     lakersThreePointerAmount.setText(String.valueOf(lakersThreePointer));
                     lakersFreeThrowAmount.setText(String.valueOf(lakersFreeThrows));
+                }else{
+                    Toast toast = Toast.makeText(getApplicationContext(), "Unable to reduce score below 0", Toast.LENGTH_LONG);
+                    toast.show();
                 }
             }
         });
@@ -136,6 +139,9 @@ public class MainActivity extends AppCompatActivity {
                     thundersTwoPointerAmount.setText(String.valueOf(thundersTwoPointer));
                     thundersThreePointerAmount.setText(String.valueOf(thundersThreePointer));
                     thundersFreeThrowAmount.setText(String.valueOf(thundersFreeThrows));
+                }else{
+                    Toast toast = Toast.makeText(getApplicationContext(), "Unable to reduce score below 0", Toast.LENGTH_LONG);
+                    toast.show();
                 }
 
             }

@@ -26,7 +26,7 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="match_parent"
-                    android:layout_height="225sp"
+                    android:layout_height="match_parent"
                     android:scaleType="fitXY"
                     android:tintMode="src_atop"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -94,7 +94,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="92dp"
-            android:text="-"
+            android:text="@string/dash"
             android:textColor="@color/scoreText"
             android:textSize="30sp"
             android:textStyle="bold"
@@ -390,7 +390,16 @@
 
                     </com.google.android.material.button.MaterialButtonToggleGroup>
 
-<RadioGroup></RadioGroup>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center"
+                        android:gravity="center"
+                        android:lineSpacingMultiplier="1.5"
+                        android:text="@string/dash"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
 
                     <com.google.android.material.button.MaterialButtonToggleGroup
                         android:layout_width="match_parent"
