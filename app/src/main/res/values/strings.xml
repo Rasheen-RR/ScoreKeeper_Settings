@@ -13,4 +13,13 @@
     <string name="_3_points">+3 Points</string>
     <string name="scored_by">Add Score By</string>
     <string name="dash">-</string>
+    <string name="course_id">Course id :</string>
+    <string name="version">Version :</string>
+    <string name="email">Email :</string>
+    <string name="v1_0">v1.0</string>
+    <string name="jav_1001_91253">JAV-1001 - 91253</string>
+    <string name="rasheen_ruwisha">Rasheen Ruwisha</string>
+    <string name="sheen_ruwisha_gmail_com">sheen.ruwisha@gmail.com</string>
+    <string name="name">Name :</string>
+    <string name="about">About</string>
 </resources>
